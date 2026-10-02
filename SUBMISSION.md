@@ -8,7 +8,7 @@ Group name: TenZionado
 | --- | --- | --- | --- |
 | 1 | Armon Jhon M. Remaldora | Systems Architect and Prompt Lead | Task 1, Task 5, Task 4 (security refactor) |
 | 2 | Aljo | Frontend Engineer | Task 2 |
-| 3 | Sebastian | Database and Backend Engineer | Task 3, Task 4 (unit tests) |
+| 3 | Sebastian Joaquin S. Alvarado | Database and Backend Engineer | Task 3, Task 4 (unit tests) |
 
 ## Repository Structure
 
