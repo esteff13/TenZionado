@@ -1,0 +1,22 @@
+erDiagram
+    USERS ||--o{ REGISTRATIONS : makes
+    EVENTS ||--o{ REGISTRATIONS : receives
+    USERS {
+        int UserId PK
+        string FullName
+        string Email UK
+    }
+    EVENTS {
+        int EventId PK
+        string Title
+        string Description
+        string Venue
+        datetime StartsAt
+        int Capacity
+    }
+    REGISTRATIONS {
+        int RegistrationId PK
+        int UserId FK
+        int EventId FK
+        datetime RegisteredAt
+    }
